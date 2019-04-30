@@ -1,0 +1,31 @@
+img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.mood{
+    float: left;
+    font-family: "Bauhaus 93";
+    font-size: 13pt;
+}
+.mood p{
+    text-align: center;
+}
+.mood.happy{
+    color: green;
+}
+.mood.sad{
+    color: red;
+}
+
+.fun-facts{
+    font: 15pt "Arial Black";
+    color: brown;
+    clear: both;
+}
+body{
+    background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+}
+.validation{
+    float: right;
+}
