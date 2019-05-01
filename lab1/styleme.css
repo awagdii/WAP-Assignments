@@ -1,31 +1,60 @@
-img{
+img {
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
-.mood{
+
+.mood {
     float: left;
     font-family: "Bauhaus 93";
     font-size: 13pt;
 }
-.mood p{
+
+.mood p {
     text-align: center;
 }
-.mood.happy{
+
+.mood.happy {
     color: green;
 }
-.mood.sad{
+
+.mood.sad {
     color: red;
 }
 
-.fun-facts{
+.fun-facts {
     font: 15pt "Arial Black";
     color: brown;
     clear: both;
 }
-body{
-    background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+
+body {
+    background: -webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
 }
-.validation{
-    float: right;
+
+.validation {
+    float: left;
+    clear: both;
+}
+
+.validation img {
+    border-radius: unset;
+    width: unset;
+    height: unset;
+}
+
+a {
+    text-decoration: none
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p:first-letter{
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+.definition-list dt{
+    color: coral;
 }
