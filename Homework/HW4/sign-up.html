@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<fieldset>
+    <legend>New User Sign up:</legend>
+    <form>
+
+        <div class="input_line">
+            <div class="input-left"> Name :</div>
+            <div class="input-right">
+                <input type="text" name="name">
+            </div>
+        </div>
+
+        <div class="input_line">
+            <div class="input-left">Gender:</div>
+            <div class="input-right">
+                <label> <input class="input-gender" type="radio" name="gender" value="male" checked> Male</label>
+                <label><input class="input-gender" type="radio" name="gender" value="female"> Female </label>
+            </div>
+        </div>
+
+        <div class="input_line">
+            <div class="input-left"> Age :</div>
+            <div class="input-right">
+                <input type="text" name="age">
+            </div>
+        </div>
+
+        <div class="input_line">
+            <div class="input-left"> Personality Type :</div>
+            <div class="input-right">
+                <input type="text" name="personality"> (<label class="label-red"> don't Know your type ? </label>)
+            </div>
+        </div>
+
+        <div class="input_line">
+            <div class="input-left"> Favourite OS :</div>
+            <div class="input-right">
+                <select name="os">
+                    <option value="windows" selected>Windows</option>
+                    <option value="linux">Linux</option>
+                    <option value="mac">Mac</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="input_line">
+            <div class="input-left"> Seeking age :</div>
+            <div class="input-right">
+                <input type="number" name="from" placeholder="min"> to <input type="number" name="to" placeholder="max">
+            </div>
+        </div>
+
+        <div class="input_line">
+            <input class="input-submit" type="submit" value="Sign Up">
+        </div>
+    </form>
+</fieldset>
+</body>
+</html>
