@@ -18,6 +18,12 @@
     height: unset;
 }
 
+.validation a {
+    float: left;
+    margin-bottom: 10px;
+}
+
+
 .comment {
     margin-right: 50px;
     margin-left: 50px;
