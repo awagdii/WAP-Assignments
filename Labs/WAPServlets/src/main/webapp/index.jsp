@@ -7,6 +7,11 @@
     <li><a href="calc2">Calculator2</a></li>
     <li><a href="quiz">Quiz Application</a></li>
     <li><a href="resources/quiz/servlet-quiz.html">Servlet Quiz Answers</a></li>
+    <li><a href="quiz">Quiz Application JSP</a></li>
+    <li><a href="resources/quizjsp/QuizAnswers.html">Servlet Quiz Answers</a></li>
+    <li><a href="resources/customtag/custom-tag.html">Custom Tag Quiz Answers</a></li>
+
+
 </ul>
 </body>
 </html>
