@@ -5,7 +5,7 @@
   Time: 12:45 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page language="java" contentType="text/html; charset=US-ASCII"
+<%@ page language="java" contentType="words/html; charset=US-ASCII"
          pageEncoding="US-ASCII" import="java.util.*" %>
 <html>
 <head>
