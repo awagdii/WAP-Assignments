@@ -1,0 +1,49 @@
+.table {
+    background: #f3f2f2;
+}
+.table tr{
+    border-bottom:1px solid #000;
+}
+
+.table tr td{
+    padding:10px;
+    border-bottom: 2px solid #fff;
+}
+.word{
+    /* color: red; */
+    font-weight: bold;
+    font-size: 17px;
+}
+.word-type{
+    color: blue;
+    font-style: italic;
+    min-width: 50px;
+}
+span{
+    padding-left: 1px;
+}
+.search-form {
+    padding: 10px;
+    background: #fdfafa;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.search-form__input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px 0 0 6px;
+}
+.search-form__btn {
+    width: 10%;
+    display: inline-block;
+    float: right;
+    padding: 10px;
+    border-radius: 0 6px 6px 0;
+    border: 1px solid #ccc;
+    background: #6bdc06;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
